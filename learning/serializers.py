@@ -9,7 +9,6 @@ class StudentSerializer(serializers.ModelSerializer):
         #extra_kwargs = {"article": {"read_only": True}} - 이건 모르겠다..
 
 
-
 class LectureSerializer(serializers.ModelSerializer):
     class Meta:
         model = Lecture
