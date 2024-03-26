@@ -28,7 +28,7 @@
 ## ERD 문서(이미지 파일)
 
   
-  ![[LMS_프로젝트.drawio.png]]
+  ![erd](LMS_프로젝트.drawio.png)
 
 ## LMS 사이트 기능
 
