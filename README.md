@@ -42,7 +42,7 @@
 
 ## Entity Relationship Diagram(ERD)
 
-ERD 문서: https://documenter.getpostman.com/view/33627655/2sA35D53Jx
+[ERD 문서](https://documenter.getpostman.com/view/33627655/2sA35D53Jx)
 
  - 학생(Student)
 
@@ -74,7 +74,7 @@ ERD 문서: https://documenter.getpostman.com/view/33627655/2sA35D53Jx
 
 - 학생과 강의 수강은 1:N관계를 맺는다(Foreign Key: 학생ID)
 
-  학생ID는 로그인시 사용하는 ID를 의미한다. 모델에 ID 필드를 만들지 않은 이유는 jango에서 모델 생성시 자동으로 id를 할당하는 것을 사용할 것이기 때문이다.
+  학생ID는 로그인시 사용하는 ID를 의미한다. 모델에 ID 필드를 만들지 않은 이유는 django에서 모델 생성시 자동으로 id를 할당하는 것을 사용할 것이기 때문이다.
 
 - 강의와 강의 수강은 1:N관계를 맺는다.(Foreign Key: 강의ID)
 
@@ -82,7 +82,6 @@ ERD 문서: https://documenter.getpostman.com/view/33627655/2sA35D53Jx
 
   
   
-
 ## REST API 구현 기능
 
 - 한명의 학생이 수강 신청한 모든 강의 data 보여주기
